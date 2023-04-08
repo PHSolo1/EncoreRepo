@@ -1,0 +1,2 @@
+Choix1;Choix2
+dialogue/dialoguetest;fin
