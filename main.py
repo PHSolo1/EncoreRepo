@@ -16,7 +16,7 @@ pygame.display.set_caption("trouver le dealer de winnie")
 screen = pygame.display.set_mode((1080, 720))
 background = pygame.image.load('./assets/th.jpg')
 
-play_button = pygame.image.load('./EncoreRepo/assets/start.jpg')
+play_button = pygame.image.load('./assets/start.jpg')
 play_button = pygame.transform.scale(play_button, (700, 400))
 play_button_rect = play_button.get_rect()
 # on place l'image au centre de l'écran
@@ -30,7 +30,7 @@ button_two = pygame.draw.rect(screen, (100, 100, 100), [
                               screen.get_width()/2, screen.get_height()/2, 140, 40])
 
 
-bulle = pygame.image.load('./EncoreRepo/assets/bulle1.jpg')
+bulle = pygame.image.load('./assets/bulle1.jpg')
 bulle = pygame.transform.scale(bulle, (400, 200))
 bulle_rect = bulle.get_rect()
 # on place l'image au centre de la partie droite de l'écran
@@ -43,10 +43,8 @@ text = FONT.render(text, True, (0, 0, 0))
 text_rect = text.get_rect()
 text_rect.center = (bulle_rect.x + 200, bulle_rect.y + 100)
 
-choix1 = "choix SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS1"
-choix2 = "choix 2"
 
-mickey = pygame.image.load('./EncoreRepo/assets/mickey.svg')
+mickey = pygame.image.load('./assets/mickey.svg')
 mickey = pygame.transform.scale(mickey, (400, 200))
 mickey_rect = mickey.get_rect()
 # on place l'image au centre de la partie gauche de l'écran
