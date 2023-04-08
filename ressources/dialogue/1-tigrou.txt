@@ -1,0 +1,4 @@
+tigrou;I - Salut l'ami, je suis Tigrou !
+tigrou;Je suppose que tu es ici pour aider Winnie.
+tigrou;Laisse-moi te dire ce qui se passe dans la forêt.
+tigrou;Tu vois, il y a eu une nouvelle drogue qui circule, et elle est en train de rendre tous les animaux complètement fous !

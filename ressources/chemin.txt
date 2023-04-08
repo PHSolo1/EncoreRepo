@@ -1,4 +1,2 @@
-dialoguetest;dialogue/dialogue2
-dialogue2;enigme/enigme1
-enigme1;choix/choix1
-choix1;fin
+intro.txt;dialogue/1-tigrou;
+1-tigrou;choix/choix1

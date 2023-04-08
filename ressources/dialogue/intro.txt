@@ -1,0 +1,7 @@
+narrateur;Le miel de Winnie l'Ourson est réputé pour être le meilleur de la forêt des rêves bleus.
+narrateur;Mais un jour, quelque chose a changé. Les amis de Winnie ont commencé à remarquer des changements dans son comportement.
+narrateurIl devenait de plus en plus absent, irritable et imprévisible.
+narrateur;Il était clair que quelque chose n'allait pas.C'est alors qu'ils ont découvert la vérité.
+narrateur;Le miel de Winnie avait été contaminé par une drogue puissante, 
+narrateur;le transformant en un ourson accro au “miel magique” comme il l'appelle. 
+narrateur;Vous êtes ici pour aidé Winnie.
