@@ -107,7 +107,7 @@ def update(screen):
     # Dessiner la surface de dessin sur l'écran de jeu
     # screen.blit(buffer, (0, 0))
     # Dessiner la zone de texte de l'utilisateur avec la couleur appropriée
-    # pygame.draw.rect(screen, color, input_rect, 0)
+    pygame.draw.rect(screen, color, input_rect, 0)
     text_surface = base_font.render(user_text, True, pygame.Color('black'))
     screen.blit(text_surface, (input_rect.x + 5, input_rect.y + 5))
     screen.blit(mickey, mickey_rect)
