@@ -9,31 +9,11 @@ class Game:
     def __init__(self):
         #définir si jeu a commencé
         self.is_playing = False
-        #génener notre joueur
-        self.all_players = pygame.sprite.Group()
-        self.player = Player(self)
-        self.all_players.add(self.player)
-        #génerer l'evenement
-        self.comet_event = CometFallEvent(self)
-        #groupe monstre
-        self.all_monsters = pygame.sprite.Group()
-        #gerer le son
-        self.sound_manager = SoundManager()
-        #mettre le score à 0
-        self.font = pygame.font.Font("assets/assets/my_custom_font.ttf", 25)
-        self.score = 0
-        self.pressed = {}
-
+        self.level = 0
 
     def start(self):
         self.is_playing = True
-        self.spawn_monster(Mummy)
-        self.spawn_monster(Mummy)
-        self.spawn_monster(Alien)
-
-    def add_score(self, points):
-        self.score += points
-
+        self.level = 1
 
     def game_over(self):
         #remettre jeu à neuf
