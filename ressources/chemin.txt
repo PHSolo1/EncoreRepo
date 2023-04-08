@@ -1,2 +1,5 @@
-intro.txt;dialogue/1-tigrou;
+intro;dialogue/1-tigrou;
 1-tigrou;choix/choix1
+2-1;choix/choix2-1
+2-2;choix/choix2-2;
+2-3;choix/choix2-3;
