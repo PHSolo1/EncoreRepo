@@ -5,12 +5,8 @@ class Game:
         #définir si jeu a commencé
         self.is_playing = False
 
-
     def start(self):
         self.is_playing = True
-
-
-    
 
     def game_over(self):
         #remettre jeu à neuf
