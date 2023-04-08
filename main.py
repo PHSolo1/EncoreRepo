@@ -13,13 +13,24 @@ running = True
 # génerer la fenêtre du jeu
 pygame.display.set_caption("trouver le dealer de winnie")
 screen = pygame.display.set_mode((1080, 720))
-background = pygame.image.load('./EncoreRepo/assets/th.jpg')
+background = pygame.image.load('./assets/th.jpg')
 
-play_button = pygame.image.load('./EncoreRepo/assets/play_button.jpg')
+play_button = pygame.image.load('./assets/play_button.jpg')
 play_button = pygame.transform.scale(play_button, (400, 150))
 play_button_rect = play_button.get_rect()
 play_button_rect.x = math.ceil(screen.get_width()/3.33)
 play_button_rect.y = math.ceil(screen.get_height()/2)
+
+
+# Générer la fenetre de dialogue
+font = pygame.font.SysFont(None, 24)
+BLACK = "#000000"
+personnage = "issou"
+
+dialog_out = font.render('hello', True, BLACK)
+dialog_out = pygame.transform.scale(dialog_out, (600, 400))
+photo_personnage = pygame.image.load('./assets/' + personnage + ".png")
+
 
 # boucle tant que condition est vrai
 while running:
@@ -33,7 +44,6 @@ while running:
     # si notre jeu n'a pas commencé
     else:
         # ajouter mon écran de bienvenu
-
         screen.blit(play_button, (400, 300))
 
     # mettre à jour
